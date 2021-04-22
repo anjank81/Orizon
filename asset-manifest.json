@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Orizon/static/css/main.5dbaa226.chunk.css",
+    "main.js": "/Orizon/static/js/main.97855456.chunk.js",
+    "main.js.map": "/Orizon/static/js/main.97855456.chunk.js.map",
+    "runtime-main.js": "/Orizon/static/js/runtime-main.772d95b6.js",
+    "runtime-main.js.map": "/Orizon/static/js/runtime-main.772d95b6.js.map",
+    "static/js/2.787f060f.chunk.js": "/Orizon/static/js/2.787f060f.chunk.js",
+    "static/js/2.787f060f.chunk.js.map": "/Orizon/static/js/2.787f060f.chunk.js.map",
+    "static/js/3.48397ecd.chunk.js": "/Orizon/static/js/3.48397ecd.chunk.js",
+    "static/js/3.48397ecd.chunk.js.map": "/Orizon/static/js/3.48397ecd.chunk.js.map",
+    "index.html": "/Orizon/index.html",
+    "static/css/main.5dbaa226.chunk.css.map": "/Orizon/static/css/main.5dbaa226.chunk.css.map",
+    "static/js/2.787f060f.chunk.js.LICENSE.txt": "/Orizon/static/js/2.787f060f.chunk.js.LICENSE.txt",
+    "static/media/pan.60437f3a.png": "/Orizon/static/media/pan.60437f3a.png",
+    "static/media/pana.7cd8b202.png": "/Orizon/static/media/pana.7cd8b202.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.772d95b6.js",
+    "static/js/2.787f060f.chunk.js",
+    "static/css/main.5dbaa226.chunk.css",
+    "static/js/main.97855456.chunk.js"
+  ]
+}
