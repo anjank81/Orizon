@@ -1,3 +1,230 @@
+.header {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.logoContainer {
+  padding: 24px 45px;
+  display: flex;
+}
+.logoImage {
+  margin-right: 10px;
+}
+.logoText {
+  padding-top: 15px;
+}
+.menuContainer {
+  display: flex;
+  margin-left: 150px;
+}
+.menuItem {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  padding: 40px 35px;
+  color: rgba(31, 46, 53, 0.8);
+  cursor: pointer;
+}
+.menuImageContainer {
+  display: flex;
+  margin-left: 25px;
+}
+.menuImage {
+  padding: 40px 15px;
+  cursor: pointer;
+}
+.sectionHeading {
+  margin: 0 auto;
+  height: fit-content;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  /* identical to box height, or 43px */
+
+  text-align: center;
+
+  color: #1f2e35;
+}
+.thirdContainer {
+  display: flex;
+  margin: 20px;
+}
+.thirdItem {
+  width: calc(100% / 3);
+  margin: 60px;
+}
+.thirdImage {
+  text-align: center;
+}
+.thirdTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 133.69%;
+  color: #007bff;
+  text-align: center;
+}
+.thirdDesc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444e;
+  margin-top: 15px;
+}
+.sectionBase {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  padding: 50px 0px;
+}
+.aboutConatiner {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+.aboutContent {
+  width: 100%;
+  padding-top: 15px;
+  height: 100%;
+  padding-left: 90px;
+}
+.questionContainer {
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+.question {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  width: 400px;
+  line-height: 133.69%;
+  color: #1f2e35;
+}
+
+.quetionWithColor {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  width: 400px;
+  line-height: 133.69%;
+  color: #007bff;
+}
+
+.answer {
+  color: #212121;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 450px;
+}
+.imageContainer {
+  margin-left: 75px;
+  height: 100%;
+}
+.buttonContainer {
+  margin-top: 30px;
+}
+.button {
+  width: fit-content;
+  padding: 14px;
+  background: #007bff;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.secondSection {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  width: 400px;
+  line-height: 133.69%;
+  color: #1f2e35;
+}
+.secondContainer {
+  margin-left: 154px;
+  height: 100%;
+  margin-right: 200px;
+}
+.thirdButtonContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.footerContainer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  padding: 85px 0px 10px 0px;
+}
+.footerContent {
+  width: calc(100% / 3);
+}
+.footerCompany {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #263238;
+  padding: 0 45px;
+}
+.footerAddress {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  padding: 0 45px;
+  color: #263238;
+}
+.contactContainer {
+  padding-left: 70px;
+}
+.contact {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 36px 0 25px 0;
+  color: #263238;
+}
+.contactInfo {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+.fimageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+}
+.fItem {
+  margin: 0 15px;
+  padding-top: 15px;
+}
+.copyrightContainer {
+  height: 65px;
+  background: #007bff;
+}
+.copyrightText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 25px;
+}
 .App {
   text-align: center;
 }
