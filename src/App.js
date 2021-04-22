@@ -69,142 +69,147 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <div className="header">
-          <div className="logoContainer">
-            <div className="logoImage">
-              <img src={logo} />
-            </div>
-            <div className="logoText">
-              <img src={logoText} />
-            </div>
-          </div>
-          <div className="menuContainer">
-            {navItems.map((val) => {
-              return <div className="menuItem">{val.name}</div>;
-            })}
-            <div className="menuImageContainer">
-              {navImages.map((val) => {
-                return (
-                  <div className="menuImage">
-                    <img src={val.image} />
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-        <div className="sectionBase">
-          <div className="aboutConatiner">
-            <div className="aboutContent">
-              <div className={'questionContainer'}>
-                <div className={'question'}>
-                  Making the most of the ever-growing
-                </div>
-                <div className={'quetionWithColor'}>Information Technology</div>
-              </div>
-              <div className={'answer'}>
-                Managed by a team of professional experts with extensive
-                experience and impressive track records
-              </div>
-              <div className={'buttonContainer'}>
-                <div className={'button'}>Read More</div>
-              </div>
-            </div>
-          </div>
-          <div className={'imageContainer'}>
-            <img src={profileStatic} width="562.97px" height="381.61px" />
-          </div>
-        </div>
-        <div className={'sectionBase'} style={{ background: '#F7F7F7' }}>
-          <div className={'secondContainer'}>
-            <img src={pang} width="380.97px" height="381.61px" />
-          </div>
-          <div className="aboutContent">
-            <div className={'questionContainer'}>
-              <div className={'secondSection'}>
-                Welcome to{' '}
-                <span style={{ color: '#007bff' }}>Orizon Technologies</span>
-              </div>
-            </div>
-            <div className={'answer'}>
-              Dwidasa Samsara Indonesia (DSI) was firstly established in 2010 by
-              the founders, who each of them has a common end objective to
-              innovate new creations by making the most of the ever-growing
-              information technology through{' '}
-              <span style={{ color: '#007bff' }}>DSI</span>’s distinct front-end
-              based application concept.
-              <br />
-              <br />
-              Managed by a team of professional experts with extensive
-              experience and impressive track records,{' '}
-              <span style={{ color: '#007bff' }}>DSI</span> believes that
-              continuous improvements and innovations assure your business to
-              run effectively and efficiently.
-            </div>
-          </div>
-        </div>
-        <div className={'sectionBase'} style={{ display: 'block' }}>
-          <div className="sectionHeading">Product and Services</div>
-          <div className={'thirdContainer'}>
-            {product.map((val) => {
-              return (
-                <div className="thirdItem">
-                  <div className="thirdImage">
-                    <img src={val.image} height="100px" />
-                  </div>
-                  <div className="thirdTitle">{val.title}</div>
-                  <div className="thirdDesc">{val.desc}</div>
-                  <div
-                    className={'thirdButtonContainer'}
-                    style={{
-                      marginTop: val.title == 'Our Product' && '57px',
-                    }}
-                  >
-                    <div className={'button'}>Read More</div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-        <div className="footerContainer">
-          <div className="footerContent">
+        <div className="base">
+          <div className="header">
             <div className="logoContainer">
-              <div
-                className="logoImage"
-                style={{ height: '40px', width: '40px' }}
-              >
+              <div className="logoImage">
                 <img src={logo} />
               </div>
-              <div className="logoText" style={{ paddingLeft: '10px' }}>
+              <div className="logoText">
                 <img src={logoText} />
               </div>
             </div>
-            <div className="footerCompany">Orizon Technologies Ltd</div>
-            <div className="footerAddress">
-              Ruko Jalur Sutera 29A No. 53 Alam Sutera Serpong, Tangerang 15323
-            </div>
-          </div>
-          <div className="footerContent">
-            <div className="contactContainer">
-              <div className="contact">Contact</div>
-              <div className="contactInfo">
-                Phone : +62.21.5314.1135
-                <br />
-                Fax : +62.21.5314.1135
-                <br /> Email : community@orizon.com
+            <div className="menuContainer">
+              {navItems.map((val) => {
+                return <div className="menuItem">{val.name}</div>;
+              })}
+              <div className="menuImageContainer">
+                {navImages.map((val) => {
+                  return (
+                    <div className="menuImage">
+                      <img src={val.image} />
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
-          <div className="footerContent">
-            <div className="fimageContainer">
-              {footerImages.map((val) => {
+          <div className="sectionBase">
+            <div className="aboutConatiner">
+              <div className="aboutContent">
+                <div className={'questionContainer'}>
+                  <div className={'question'}>
+                    Making the most of the ever-growing
+                  </div>
+                  <div className={'quetionWithColor'}>
+                    Information Technology
+                  </div>
+                </div>
+                <div className={'answer'}>
+                  Managed by a team of professional experts with extensive
+                  experience and impressive track records
+                </div>
+                <div className={'buttonContainer'}>
+                  <div className={'button'}>Read More</div>
+                </div>
+              </div>
+            </div>
+            <div className={'imageContainer'}>
+              <img src={profileStatic} className="imageSize" />
+            </div>
+          </div>
+          <div className={'secsectionBase'} style={{ background: '#F7F7F7' }}>
+            <div className={'secondContainer'}>
+              <img src={pang} className="secondImage" />
+            </div>
+            <div className="aboutContent">
+              <div className={'questionContainer'}>
+                <div className={'secondSection'}>
+                  Welcome to{' '}
+                  <span style={{ color: '#007bff' }}>Orizon Technologies</span>
+                </div>
+              </div>
+              <div className={'secAnswer'}>
+                Dwidasa Samsara Indonesia (DSI) was firstly established in 2010
+                by the founders, who each of them has a common end objective to
+                innovate new creations by making the most of the ever-growing
+                information technology through{' '}
+                <span style={{ color: '#007bff' }}>DSI</span>’s distinct
+                front-end based application concept.
+                <br />
+                <br />
+                Managed by a team of professional experts with extensive
+                experience and impressive track records,{' '}
+                <span style={{ color: '#007bff' }}>DSI</span> believes that
+                continuous improvements and innovations assure your business to
+                run effectively and efficiently.
+              </div>
+            </div>
+          </div>
+          <div className={'sectionBase'} style={{ display: 'block' }}>
+            <div className="sectionHeading">Product and Services</div>
+            <div className={'thirdContainer'}>
+              {product.map((val) => {
                 return (
-                  <div className="fItem">
-                    <img src={val.image} />
+                  <div className="thirdItem">
+                    <div className="thirdImage">
+                      <img src={val.image} height="100px" />
+                    </div>
+                    <div className="thirdTitle">{val.title}</div>
+                    <div className="thirdDesc">{val.desc}</div>
+                    <div
+                      className={'thirdButtonContainer'}
+                      style={{
+                        marginTop: val.title == 'Our Product' && '57px',
+                      }}
+                    >
+                      <div className={'button'}>Read More</div>
+                    </div>
                   </div>
                 );
               })}
+            </div>
+          </div>
+          <div className="footerContainer">
+            <div className="footerContent">
+              <div className="logoContainer">
+                <div
+                  className="logoImage"
+                  style={{ height: '40px', width: '40px' }}
+                >
+                  <img src={logo} />
+                </div>
+                <div className="logoText" style={{ paddingLeft: '10px' }}>
+                  <img src={logoText} />
+                </div>
+              </div>
+              <div className="footerCompany">Orizon Technologies Ltd</div>
+              <div className="footerAddress">
+                Ruko Jalur Sutera 29A No. 53 Alam Sutera Serpong, Tangerang
+                15323
+              </div>
+            </div>
+            <div className="footerContent">
+              <div className="contactContainer">
+                <div className="contact">Contact</div>
+                <div className="contactInfo">
+                  Phone : +62.21.5314.1135
+                  <br />
+                  Fax : +62.21.5314.1135
+                  <br /> Email : community@orizon.com
+                </div>
+              </div>
+            </div>
+            <div className="footerContent">
+              <div className="fimageContainer">
+                {footerImages.map((val) => {
+                  return (
+                    <div className="fItem">
+                      <img src={val.image} />
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
