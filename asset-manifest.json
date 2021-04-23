@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Orizon/static/css/main.9adcb685.chunk.css",
-    "main.js": "/Orizon/static/js/main.32c3a546.chunk.js",
-    "main.js.map": "/Orizon/static/js/main.32c3a546.chunk.js.map",
+    "main.js": "/Orizon/static/js/main.6a91c2c4.chunk.js",
+    "main.js.map": "/Orizon/static/js/main.6a91c2c4.chunk.js.map",
     "runtime-main.js": "/Orizon/static/js/runtime-main.2aa37bc2.js",
     "runtime-main.js.map": "/Orizon/static/js/runtime-main.2aa37bc2.js.map",
     "static/js/2.35fa861d.chunk.js": "/Orizon/static/js/2.35fa861d.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.2aa37bc2.js",
     "static/js/2.35fa861d.chunk.js",
     "static/css/main.9adcb685.chunk.css",
-    "static/js/main.32c3a546.chunk.js"
+    "static/js/main.6a91c2c4.chunk.js"
   ]
 }
