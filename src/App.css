@@ -90,13 +90,13 @@
 }
 .sectionBase {
   width: 100%;
-  height: 400px;
+  height: 500px;
   display: flex;
   padding: 50px 0px;
 }
 .secsectionBase {
   width: 100%;
-  height: 400px;
+  height: 500px;
   display: flex;
   padding: 50px 0px;
 }
@@ -121,7 +121,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
-  width: 400px;
+  width: 500px;
   line-height: 133.69%;
   color: #1f2e35;
 }
@@ -130,7 +130,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
-  width: 400px;
+  width: 500px;
   line-height: 133.69%;
   color: #007bff;
 }
@@ -170,7 +170,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
-  width: 400px;
+  width: 500px;
   line-height: 133.69%;
   color: #1f2e35;
 }
