@@ -26,7 +26,14 @@ export default class UserDetails extends Component {
       <React.Fragment>
         {this.props && this.props.loader && <Loader />}
         <div className={styles.base}>
-          logout
+          <div
+            className={styles.logout}
+            onClick={() => {
+              this.props.history.push('/');
+            }}
+          >
+            logout
+          </div>
           {this.props &&
           this.props.userRepoDetails &&
           this.props.userRepoDetails.length > 0 ? (

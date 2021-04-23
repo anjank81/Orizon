@@ -112,3 +112,9 @@
   font-weight: bold;
   font-size: 18px;
 }
+.logout {
+  padding: 10px;
+  font-weight: bold;
+  width: fit-content;
+  cursor: pointer;
+}
