@@ -12,7 +12,6 @@ export default class UserDetails extends Component {
     window.open(val);
   };
   render() {
-    console.log(this.props);
     const image =
       this.props &&
       this.props.userRepoDetails &&
