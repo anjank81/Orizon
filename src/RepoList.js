@@ -3,7 +3,10 @@ import styles from './UserDetails.module.css';
 import Loader from './Loader.js';
 export default class UserDetails extends Component {
   componentDidMount() {
-    this.props.searchUserRepo('anjank81');
+    let user = this.props.location.state.user
+      ? this.props.location.state.user
+      : 'anjank81';
+    this.props.searchUserRepo(user);
   }
   onRedirect = (val) => {
     window.open(val);
@@ -32,7 +35,15 @@ export default class UserDetails extends Component {
               this.props.history.push('/');
             }}
           >
-            logout
+            Home
+          </div>
+          <div
+            className={styles.logout}
+            onClick={() => {
+              this.props.history.push('/Login');
+            }}
+          >
+            Users
           </div>
           {this.props &&
           this.props.userRepoDetails &&
