@@ -79,10 +79,10 @@ export default class App extends Component {
           <div className="header">
             <div className="logoContainer">
               <div className="logoImage">
-                <img src={logo} />
+                <img src={logo} alt="logo" />
               </div>
               <div className="logoText">
-                <img src={logoText} />
+                <img src={logoText} alt="logo Text" />
               </div>
             </div>
             <div className="menuContainer">
@@ -102,7 +102,7 @@ export default class App extends Component {
                 {navImages.map((val) => {
                   return (
                     <div className="menuImage">
-                      <img src={val.image} />
+                      <img src={val.image} alt="" />
                     </div>
                   );
                 })}
@@ -130,12 +130,12 @@ export default class App extends Component {
               </div>
             </div>
             <div className={'imageContainer'}>
-              <img src={profileStatic} className="imageSize" />
+              <img src={profileStatic} className="imageSize" alt="" />
             </div>
           </div>
           <div className={'secsectionBase'} style={{ background: '#F7F7F7' }}>
             <div className={'secondContainer'}>
-              <img src={pang} className="secondImage" />
+              <img src={pang} className="secondImage" alt="" />
             </div>
             <div className="aboutContent">
               <div className={'questionContainer'}>
@@ -168,14 +168,14 @@ export default class App extends Component {
                 return (
                   <div className="thirdItem">
                     <div className="thirdImage">
-                      <img src={val.image} height="100px" />
+                      <img src={val.image} height="100px" alt="" />
                     </div>
                     <div className="thirdTitle">{val.title}</div>
                     <div className="thirdDesc">{val.desc}</div>
                     <div
                       className={'thirdButtonContainer'}
                       style={{
-                        marginTop: val.title == 'Our Product' && '57px',
+                        marginTop: val.title === 'Our Product' && '57px',
                       }}
                     >
                       <div className={'button'}>Read More</div>
@@ -192,10 +192,10 @@ export default class App extends Component {
                   className="logoImage"
                   style={{ height: '40px', width: '40px' }}
                 >
-                  <img src={logo} />
+                  <img src={logo} alt="" />
                 </div>
                 <div className="logoText" style={{ paddingLeft: '10px' }}>
-                  <img src={logoText} />
+                  <img src={logoText} alt="" />
                 </div>
               </div>
               <div className="footerCompany">Orizon Technologies Ltd</div>
@@ -220,7 +220,7 @@ export default class App extends Component {
                 {footerImages.map((val) => {
                   return (
                     <div className="fItem">
-                      <img src={val.image} />
+                      <img src={val.image} alt="" />
                     </div>
                   );
                 })}

@@ -48,6 +48,14 @@ export default class UserCard extends Component {
         <div className={styles.base}>
           <div className={styles.dataHolder}>
             <div className={styles.searchHeading}>
+              <div
+                className={styles.logout}
+                onClick={() => {
+                  this.props.history.push('/');
+                }}
+              >
+                Home
+              </div>
               <div className={styles.searchLabel}>Search By Name</div>
               <div className={styles.searchInputHolder}>
                 <div className={styles.inputBox}>
