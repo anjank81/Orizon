@@ -9,8 +9,8 @@ export default class App extends Component {
     return (
       <div>
         <Switch>
-          <Route path="/Login" component={UserCardContainer} exact />
-          <Route path="/repolist" component={UserContainer} exact />
+          <Route path="/Login" component={UserContainer} exact />
+          {/* <Route path="/repolist" component={UserContainer} exact /> */}
           <Route path="/" component={Home} exact />
         </Switch>
       </div>
