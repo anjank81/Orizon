@@ -2,7 +2,6 @@
   width: 100%;
   height: auto;
   min-height: 100vh;
-  overflow: auto;
   background: #ebeced;
 }
 .header {
@@ -186,7 +185,6 @@
 }
 .footerContainer {
   width: 100%;
-  height: 200px;
   display: flex;
   padding: 85px 0px 10px 0px;
 }
@@ -253,6 +251,12 @@
   width: 380.97px;
   height: 381.61px;
 }
+.menuContainerMobile {
+  display: none;
+}
+.menuIcon {
+  display: none;
+}
 .App {
   text-align: center;
 }
@@ -292,8 +296,24 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+  .menuIcon {
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 30px 20px;
+  }
   .menuContainer {
     display: none;
+  }
+  .menuContainerMobile {
+    display: block;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    background: grey;
   }
   .sectionBase {
     height: auto;
@@ -348,6 +368,7 @@
   .secondSection {
     text-align: center;
     margin: 20px 0;
+    width: 99%;
   }
   .secAnswer {
     font-size: 18px;

@@ -16,6 +16,8 @@ import Image3 from './Images/3.png';
 import Image4 from './Images/4.png';
 import Image5 from './Images/5.png';
 import Image6 from './Images/6.png';
+import menu from './Images/square.png';
+
 const navItems = [
   {
     name: 'Services',
@@ -72,6 +74,7 @@ const footerImages = [
   { image: Image6 },
 ];
 export default class App extends Component {
+  state = { menu: false };
   render() {
     return (
       <div>
@@ -84,6 +87,16 @@ export default class App extends Component {
               <div className="logoText">
                 <img src={logoText} alt="logo Text" />
               </div>
+            </div>
+            <div>
+              <img
+                src={menu}
+                className="menuIcon"
+                onClick={() => {
+                  this.setState({ menu: !this.state.menu });
+                }}
+                alt=""
+              />
             </div>
             <div className="menuContainer">
               {navItems.map((val) => {
@@ -108,7 +121,24 @@ export default class App extends Component {
                 })}
               </div>
             </div>
+            {this.state.menu && (
+              <div className={'menuContainerMobile'}>
+                {navItems.map((val) => {
+                  return (
+                    <div
+                      className="menuItem"
+                      onClick={() => {
+                        this.props.history.push(val.link);
+                      }}
+                    >
+                      {val.name}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </div>
+
           <div className="sectionBase">
             <div className="aboutConatiner">
               <div className="aboutContent">
