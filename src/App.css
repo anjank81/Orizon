@@ -254,6 +254,21 @@
 .menuContainerMobile {
   display: none;
 }
+.carouselContainer {
+  width: 100%;
+}
+.prevButton {
+  position: absolute;
+  top: 300px;
+  left: 10px;
+  cursor: pointer;
+}
+.nextButton {
+  position: absolute;
+  top: 300px;
+  right: 10px;
+  cursor: pointer;
+}
 .menuIcon {
   display: none;
 }
